@@ -2,11 +2,15 @@
 </script>
 
 <template>
-  <header>
-  </header>
+    <header>
+        <nav>
+            
+        </nav>
+    </header>
 
-  <main>
-  </main>
+    <main>
+
+    </main>
 </template>
 
 <style>
