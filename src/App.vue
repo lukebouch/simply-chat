@@ -1,14 +1,18 @@
-<script setup>
+<script>
+import Nav from "./components/Nav.vue";
+
+export default {
+    components: { Nav }
+}
+
 </script>
 
 <template>
     <header>
-        <nav>
-            
-        </nav>
+        <Nav/>
     </header>
 
-    <main>
+    <main class="max-w-5xl mx-auto">
 
     </main>
 </template>
