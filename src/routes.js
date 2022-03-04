@@ -1,7 +1,7 @@
 import Landing from "./components/Landing.vue"
-
-const Home = { template: '<div>Home</div>' }
+import Chat from "./components/Chat/Chat.vue"
 
 export default [
     { path: '/', component: Landing },
+    { path: '/chat', component: Chat },
 ]

@@ -47,3 +47,7 @@ small,
 .text_small {
     font-size: 0.75rem;
 }
+
+.container {
+    @apply max-w-xl mx-auto;
+}
