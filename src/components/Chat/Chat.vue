@@ -1,16 +1,11 @@
 <script>
 import { useChatStore } from "../../stores/chat"
-import Button from "../Button.vue"
 import ChooseChat from "./ChooseChat.vue"
 
 export default {
-    components: { Button, ChooseChat },
-    setup() {
-        const chat = useChatStore();
-    },
+    components: { ChooseChat },
     data() {
         return {
-            code: chat.code,
         }
     }
 }
@@ -18,7 +13,7 @@ export default {
 
 <template>
     <div class="container px-5">
-        <div v-if="false">
+        <div v-if="code">
             <ChooseChat></ChooseChat>
         </div>
         <div v-else>
