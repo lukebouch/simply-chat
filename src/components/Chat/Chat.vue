@@ -13,11 +13,6 @@ export default {
 
 <template>
     <div class="container px-5">
-        <div v-if="code">
-            <ChooseChat></ChooseChat>
-        </div>
-        <div v-else>
-            Test
-        </div>
+        Test
     </div>
 </template>
