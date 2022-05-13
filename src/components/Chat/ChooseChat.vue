@@ -1,6 +1,13 @@
 <script>
+import { useChatStore } from "../../stores/chat"
+
 import Button from "../Button.vue"
+import ChatVue from "./Chat.vue"
 export default {
+    setup() {
+        const store = useChatStore();
+        return store;
+    },
     components: { Button },
     data() {
         return {
@@ -10,6 +17,7 @@ export default {
     methods: {
         joinChat() {
             console.log(`Joining chat with code ${this.code}`)
+            store.code = this.code
         },
         newChat() {
             console.log('Creating a new chat just for you... and your friends!')
