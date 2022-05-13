@@ -22,7 +22,7 @@ export default {
             <ChooseChat></ChooseChat>
         </div>
         <div v-else>
-        Test
+            Test
         </div>
     </div>
 </template>
