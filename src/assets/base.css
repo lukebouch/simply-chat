@@ -6,4 +6,7 @@
     .container {
         @apply max-w-5xl mx-auto;
     }
+    .container-sm {
+        @apply max-w-xl mx-auto;
+    }
 }
